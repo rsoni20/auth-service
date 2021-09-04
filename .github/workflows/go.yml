@@ -32,4 +32,4 @@ jobs:
         tags: ${{ github.event.repository.name }}:latest, ${{ github.repository }}:latest
 
     - name: Test
-      run: go test -v ./...qqqqq
+      run: go test -v ./...

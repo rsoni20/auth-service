@@ -23,3 +23,7 @@ func getHttpPort() string {
 	}
 	return httpPort
 }
+
+func Greet() string {
+	return "hello"
+}

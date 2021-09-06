@@ -19,7 +19,7 @@ func main() {
 func getHttpPort() string {
 	httpPort := os.Getenv("HTTP_PORT")
 	if httpPort == "" {
-		httpPort = "8080"
+		httpPort = "8081"
 	}
 	return httpPort
 }
